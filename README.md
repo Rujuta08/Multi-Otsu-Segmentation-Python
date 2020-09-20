@@ -31,5 +31,7 @@ Where,
 <a href="https://www.codecogs.com/eqnedit.php?latex=q_{m}&space;=&space;\sum_{i=t_{m}}^{L&space;-&space;1}&space;p_{i}&space;,&space;\sigma&space;^{2}_{m}&space;=&space;\sum_{i=t_{m}}^{L&space;-&space;1}[i&space;-&space;\mu_{m}]^{2}&space;\frac{p_{i}}{q_{m}}&space;for&space;\mu_{m}&space;=&space;\sum_{i=t_{m}}^{L&space;-&space;1}&space;\frac{i*p_{i}}{q_{m}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?q_{m}&space;=&space;\sum_{i=t_{m}}^{L&space;-&space;1}&space;p_{i}&space;,&space;\sigma&space;^{2}_{m}&space;=&space;\sum_{i=t_{m}}^{L&space;-&space;1}[i&space;-&space;\mu_{m}]^{2}&space;\frac{p_{i}}{q_{m}}&space;for&space;\mu_{m}&space;=&space;\sum_{i=t_{m}}^{L&space;-&space;1}&space;\frac{i*p_{i}}{q_{m}}" title="q_{m} = \sum_{i=t_{m}}^{L - 1} p_{i} , \sigma ^{2}_{m} = \sum_{i=t_{m}}^{L - 1}[i - \mu_{m}]^{2} \frac{p_{i}}{q_{m}} for \mu_{m} = \sum_{i=t_{m}}^{L - 1} \frac{i*p_{i}}{q_{m}}" /></a>
 
 
-Here, q0, q1 ... qm are class probabilities 
+Here, q<sub>0</sub>, q<sub>1</sub> ... q<sub>m</sub> are class probabilities.
+
+The Particle Swarm Optimization optimizes the Otsu Function to find the optimum threshold values. This is tested on the a standard test image and the segmented output file is stored given as 'lena_gray_Class_5_segment_Avgplot.png'.
 
