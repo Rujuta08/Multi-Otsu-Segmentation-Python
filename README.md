@@ -24,15 +24,12 @@ F(t<sub>1</sub>, t<sub>2</sub>, t<sub>3</sub> ... t<sub>m</sub>) = q<sub>0</sub>
 
 Where,
 
-![ q_{0} = \sum_{i=0}^{t_{1} - 1} p_{i} and  \sigma ^{2}_{0} = \sum_{i=0}^{t_{1} - 1}[i - \mu_{0}]^{2} \frac{p_{i}}{q_{0}}  for \mu_{0} = \sum_{i=0}^{t_{1} - 1} \frac{i*p_{i}}{q_{0}}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+[ q_{0} = \sum_{i=0}^{t_{1} - 1} p_{i} and  \sigma ^{2}_{0} = \sum_{i=0}^{t_{1} - 1}[i - \mu_{0}]^{2} \frac{p_{i}}{q_{0}}  for \mu_{0} = \sum_{i=0}^{t_{1} - 1} \frac{i*p_{i}}{q_{0}}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
-![q_{k} = $\sum_{i=t_{k}}^{t_{k+1} - 1} p_{i}$ , $\sigma ^{2}_{k} = \sum_{i=t_{k}}^{t_{k+1} - 1}[i - \mu_{k}]^{2} \frac{p_{i}}{q_{k}} $  for  $\mu_{k} = \sum_{i=t_{k}}^{t_{k+1} - 1} \frac{i*p_{i}}{q_{k}}$ ( k = 1,2, ... m-1)](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+[q_{k} = $\sum_{i=t_{k}}^{t_{k+1} - 1} p_{i}$ , $\sigma ^{2}_{k} = \sum_{i=t_{k}}^{t_{k+1} - 1}[i - \mu_{k}]^{2} \frac{p_{i}}{q_{k}} $  for  $\mu_{k} = \sum_{i=t_{k}}^{t_{k+1} - 1} \frac{i*p_{i}}{q_{k}}$ ( k = 1,2, ... m-1)](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
-![q$_{m}$ = $\sum_{i=t_{m}}^{L - 1} p_{i}$ , $\sigma ^{2}_{m} = \sum_{i=t_{m}}^{L - 1}[i - \mu_{m}]^{2} \frac{p_{i}}{q_{m}} $  for  $\mu_{m} = \sum_{i=t_{m}}^{L - 1} \frac{i*p_{i}}{q_{m}}$](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+[q$_{m}$ = $\sum_{i=t_{m}}^{L - 1} p_{i}$ , $\sigma ^{2}_{m} = \sum_{i=t_{m}}^{L - 1}[i - \mu_{m}]^{2} \frac{p_{i}}{q_{m}} $  for  $\mu_{m} = \sum_{i=t_{m}}^{L - 1} \frac{i*p_{i}}{q_{m}}$](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
-q0 = Pt1−1i=0 pi and σ20 =Pt1−1i=0 [i − µ0]2 piq0 for µ0 =Pt1−1i=0i∗piq0
 
-qk = Ptk+1−1i=tkpi, σ2k = Ptk+1−1i=tk[i − µk]2 piqk for µk = Ptk+1−1 i=tk i∗pi qk ( k = 1,2, ... m-1)
-qm = PL−1 i=tm pi , σ 2 m = PL−1 i=tm [i − µm] 2 pi qm for µm = PL−1 i=tm i∗pi qm
 Here, q0, q1 ... qm are class probabilities 
 
